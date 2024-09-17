@@ -1,0 +1,53 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ 
+}
+
+body{
+  overflow-x: hidden;
+
+}
+.bg{
+  background-image: url('./Images/pic55.jpeg');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main{
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  background-image: url('./Images/no1.jpg');
+  background-size: cover;
+
+}
+
+Form{
+  margin-left: 550px;
+  padding-left: 150px;
+  margin-top: 50px;
+  padding-top: 50px;
+  height: 500px;
+  width: 500px;
+  background-color: white;
+}
+.user{
+ background-color: rgb(32, 32, 89);
+  
+  height: 30vh;
+}
+
+
+.chatbox{
+ 
+    position: fixed;
+    bottom: 20px; /* Distance from bottom */
+    right: 20px;  /* Distance from right */
+    z-index: 100; /* Ensure it's on top of other elements */
+    cursor: pointer;
+  }
